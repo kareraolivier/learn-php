@@ -1,5 +1,5 @@
-
 <?php
+
 /**
  * addcslashes — Quote string with slashes in a C style
  * addslashes — Quote string with slashes
@@ -111,8 +111,7 @@
 $string = 'Hello karera';
 $salt = 'karerasalt';
 echo strlen("$string \n");
-echo crypt($string, $salt . "\n");
-echo "\n";
-echo substr_replace($string, 'Hello', 6, strlen('karera') . "\n");
+echo crypt($string, $salt);
+echo substr_replace($string, 'Hello', 6, strlen('karera'));
 echo strtolower($string . "\n");
 echo strrev($string . "\n");

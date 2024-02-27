@@ -21,12 +21,11 @@ echo add(98, 67);
 
 
 //Arrow function 
-$message = fn () => {
-    if (2 == 2) {
-        return 'olivier';
-    }
-    return 'karera';
-};
+// $message = fn () => {
+//     if (2 == 2) {
+//         return 'olivier';
+//     }
+//     return 'karera';
+// };
 
 echo $message();
-
